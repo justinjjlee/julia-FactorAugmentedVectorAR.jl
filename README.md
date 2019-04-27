@@ -10,5 +10,6 @@ using Gadfly, Colors;
 
 include('func_FAVAR.jl');
 ```
+Test dataset is downloaded from Federal Reserve Bank of St. Louis - [Federal Reserve Economic Database (FRED) - FAVAR-1](https://research.stlouisfed.org/pdl/763)
 
 Author: Justin J. Lee (justin.j.lee3411@gmail.com)
