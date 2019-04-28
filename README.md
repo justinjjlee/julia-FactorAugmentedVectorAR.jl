@@ -3,6 +3,7 @@ Implementation of Factor-augmented Vector Autoregressive process (FAVAR(p)) base
 
 ```julia
 import Pkg
+Pkg.update()
 
 using LinearAlgebra, Distributions, Statistics, MultivariateStats;
 using ProgressMeter;
