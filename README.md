@@ -28,4 +28,4 @@ p = 12;                                   # Lag order
 𝚩, 𝞄, 𝝨, 𝔽₁, ℾ₁ = func_favar(yₘ, yₚ, p, ζ);
 ```
 
-Author: Justin J. Lee (justin.j.lee3411@gmail.com)
+-Justin J. Lee
