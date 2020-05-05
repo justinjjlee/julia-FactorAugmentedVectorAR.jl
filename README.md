@@ -28,7 +28,7 @@ p = 12;                                   # Lag order
 𝚩, 𝞄, 𝝨, 𝔽₁, ℾ₁ = func_favar(yₘ, yₚ, p, ζ);
 ```
 
-Using the impulse response function from [VectorAR package](https://github.com/jjl3411/julia-VectorAR.jl), calculate response,
+Using the impulse response function from [julia-VectorAR.jl](https://github.com/jjl3411/julia-VectorAR.jl), calculate response,
 ```julia
 ψ,
   ψ_lb_2sd, ψ_lb_1sd,
@@ -38,6 +38,6 @@ Using the impulse response function from [VectorAR package](https://github.com/j
 # For calculating the responses, multiply factor loadings for those
 ψ₁ = ψ[:, (kₘ+1):end] * 𝔽₁';
 ````
-I recommend leveraging bias-corrected bootstrap confidence intervals [Kilian (1998)](https://www.mitpressjournals.org/doi/pdf/10.1162/003465398557465), as in the impulse response calculation function.
+I recommend leveraging bias-corrected bootstrap confidence intervals [Kilian (1998)](https://www.mitpressjournals.org/doi/pdf/10.1162/003465398557465) as in [Bernanke, Boivin, and Eliasz (2005)](https://academic.oup.com/qje/article-abstract/120/1/387/1931468). [julia-VectorAR.jl](https://github.com/jjl3411/julia-VectorAR.jl) uses recursive design, without adjustment.
 
 -Justin J. Lee
