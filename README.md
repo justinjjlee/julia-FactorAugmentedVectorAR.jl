@@ -38,5 +38,6 @@ Using the impulse response function from [VectorAR package](https://github.com/j
 # For calculating the responses, multiply factor loadings for those
 ψ₁ = ψ[:, (kₘ+1):end] * 𝔽₁';
 ````
-This tool would recommend leveraging bias-corrected bootstrap confidence intervals [Kilian (1998)](https://www.mitpressjournals.org/doi/pdf/10.1162/003465398557465), as in the impulse response calculation.
+I recommend leveraging bias-corrected bootstrap confidence intervals [Kilian (1998)](https://www.mitpressjournals.org/doi/pdf/10.1162/003465398557465), as in the impulse response calculation function.
+
 -Justin J. Lee
