@@ -28,7 +28,7 @@ p = 12;                                   # Lag order
 𝚩, 𝞄, 𝝨, 𝔽₁, ℾ₁ = func_favar(yₘ, yₚ, p, ζ);
 ```
 
-Using the impulse response function from [julia-VectorAR.jl](https://github.com/jjl3411/julia-VectorAR.jl), calculate response,
+Using the impulse response function from [julia-VectorAR.jl](https://github.com/jjl3411/julia-VectorAR.jl), calculate responses,
 ```julia
 ψ,
   ψ_lb_2sd, ψ_lb_1sd,
